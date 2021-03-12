@@ -9,11 +9,8 @@ public class Etudiant {
 		private String prenom;
 		private int age;
 		private String classe;
+		private List<Animal> animaux;
 
-		private List<Chien> chiens;
-		
-		List<Chien> chenil = new ArrayList<Chien>();
-		private ArrayList<Object> chats;
 
 	
 		
@@ -24,58 +21,40 @@ public class Etudiant {
 			this.age =age;
 			this.classe =classe;
 
-			this.chiens = new ArrayList<>();
-			this.chats = new ArrayList<>();
+
+			this.animaux = new ArrayList<>();
 
 		}
 
 
 
 public void sePresenter() {
-	 int nbrChat = 0;
-	 for(int i = 0; i < chats.size(); i++){    
-	   nbrChat = nbrChat +1;
+	
+	 int nbrAnimaux = 0;
+	 for(int i = 0; i < animaux.size(); i++){    
+	   nbrAnimaux = nbrAnimaux +1;
 	 } 
+		
+	System.out.println(" Bonjour, je m'appelle " + " " + nom + " " + prenom + " j'ai " + age + " ans, et je suis en  " + classe + " , et j'ai " + nbrAnimaux + " Chats, les voici :" );
 	
-	
-	
-	System.out.println(" Bonjour, je m'appelle " + " " + nom + " " + prenom + " j'ai " + age + " ans, et je suis en  " + classe + " , et j'ai " + nbrChat + " Chats, les voici :" );
-	
-	 for(int i = 0; i < chiens.size(); i++){    
-	        chiens.get(i).sePresenter();
+	 for(int i = 0; i < animaux.size(); i++){    
+	        animaux.get(i).sePresenter();
 	        } 
-	 
-	 
-	 /*for(int j = 0; j < chats.size(); j++){    
-	       ((chat) chats.get(j)).sePresenter();
-	        }*/
-	 for(int k = 0; k < chats.size(); k++){    
-	       ((chat) chats.get(k)).miauler();
-	        } 
-}
-public void ajouterChien(Chien p_chien) {
-    chiens.add(p_chien);
-}
-
-/*public void retirerChien(Chien p_chien) {
-    chiens.remove(p_chien);
-}*/
-
-
-
-public void retirerChien(int numeroChien) {
-	chiens.remove(numeroChien);
 	
 }
 
-public void ajouterChat(chat p_chat) {
-    chats.add(p_chat);
+
+public void ajouterAnimal(Animal p_animal) {
+    animaux.add(p_animal);
 }
 
-public void retirerChat(int numeroChat) {
-	chats.remove(numeroChat);
+public void retirerAnimal(Animal p_animal) {
+	animaux.remove(p_animal);
 	
 }
+
+
+
 
 
 }	

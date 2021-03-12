@@ -39,6 +39,10 @@ public class Animal {
 		this.race = race;
 	}
 	
-	
+	public void sePresenter() {
+		System.out.println("je suis un animal");
+	}	
+
+			
 	
 }

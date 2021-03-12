@@ -16,6 +16,7 @@ public class Main {
 		classe btssio1 = new classe("BTS SIO1");
 		classe btstc1 = new classe("BTS TC1");
 		
+		Animal jaaa = new chat(1, "peanut", "norvegien", null);
 		chat peanut = new chat(1, "peanut", "norvegien", null);		
 		chat ramses = new chat(1, "ramses", "maine coon", null);
 		/*jimmy.sePresenter();*/
@@ -35,16 +36,16 @@ public class Main {
 		chenil.add(revus);
 		chenil.add(maxoue);
 		chenil.add(phact);
-        guitoune.ajouterChien(maxoue);
-        guitoune.ajouterChien(phact);
-        jimmy.ajouterChien(revus);
-        jimmy.ajouterChien(phact);
-        jimmy.ajouterChien(maxoue);
+        guitoune.ajouterAnimal(maxoue);
+        guitoune.ajouterAnimal(phact);
+        jimmy.ajouterAnimal(revus);
+        jimmy.ajouterAnimal(phact);
+        jimmy.ajouterAnimal(maxoue);
         
         
-        guitoune.ajouterChat(peanut);
-        guitoune.ajouterChat(ramses);
-        mathilde.ajouterChat(ramses);
+        guitoune.ajouterAnimal(peanut);
+        guitoune.ajouterAnimal(ramses);
+        mathilde.ajouterAnimal(ramses);
 
 		/*for ( int i=0; i< chenil.size(); i++) {
 			chenil.get(i).sePresenter();
@@ -52,8 +53,8 @@ public class Main {
 		/*for ( int j=0; j< sio.size(); j++) {
 			sio.get(j).sePresenter();						
 		}*/
-        guitoune.retirerChien(0);
-        jimmy.retirerChien(1);
+        guitoune.retirerAnimal(peanut);
+        jimmy.retirerAnimal(maxoue);
         guitoune.sePresenter();
         
       
