@@ -54,11 +54,8 @@ public class Main {
 		}*/
         guitoune.retirerChien(0);
         jimmy.retirerChien(1);
-
-        /*guitoune.sePresenter();*/
-        peanut.miauler();
-        ramses.miauler();
-        peanut.sePresenter();
+        guitoune.sePresenter();
+        
       
         					/* btssio1.presenterClasse();*/
 		

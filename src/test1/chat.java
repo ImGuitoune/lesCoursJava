@@ -49,7 +49,6 @@ public class chat {
 	}
 	
 	public void miauler() {
-	System.out.println(" miaou ");
-	System.out.println(" ça veut dire bonjour en chat ");
+	System.out.println(" miaou frr");
 	}
 }

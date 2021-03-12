@@ -11,7 +11,7 @@ public class Etudiant {
 		private String classe;
 
 		private List<Chien> chiens;
-
+		
 		List<Chien> chenil = new ArrayList<Chien>();
 		private ArrayList<Object> chats;
 
@@ -39,9 +39,9 @@ public void sePresenter() {
 	        } 
 	 
 	 
-	 for(int j = 0; j < chats.size(); j++){    
+	 /*for(int j = 0; j < chats.size(); j++){    
 	       ((chat) chats.get(j)).sePresenter();
-	        }
+	        }*/
 	 for(int k = 0; k < chats.size(); k++){    
 	       ((chat) chats.get(k)).miauler();
 	        } 
