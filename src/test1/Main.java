@@ -7,17 +7,17 @@ import java.util.List;
 
 public class Main {
 	public static void main(String[] args) {
-		Chien revus = new Chien(10, 8, "rêvus", " Fox Terrier", " Chien");
-		Chien maxoue = new Chien(100, 18, "Maxence", "Berger Allemand", " gros Chien");
-		Chien ziikro = new Chien(100000, 20, "Ziikro", "Gros chien", " vieux Chien");
+		Chien revus = new Chien(10, " Chien", "rêvus", " Fox Terrier", 8);
+		Chien maxoue = new Chien(100, " gros Chien", "Maxence", "Berger Allemand", 18);
+		Chien ziikro = new Chien(100000, " vieux Chien", "Ziikro", "Gros chien", 20);
 		Etudiant jimmy = new Etudiant("DOUSSAIN", " Jimmy", 19, "BTS SIO1");
 		Etudiant guitoune = new Etudiant("BOSC", "Guillaume", 19, "BTS SIO1");
 		Etudiant mathilde = new Etudiant("ROPTIN", "Mathilde", 19, "BTS TC1");
 		classe btssio1 = new classe("BTS SIO1");
 		classe btstc1 = new classe("BTS TC1");
 		
-		chat peanut = new chat(1, "peanut", "norvegien");		
-		chat ramses = new chat(1, "ramses", "maine coon");
+		chat peanut = new chat(1, "peanut", "norvegien", null);		
+		chat ramses = new chat(1, "ramses", "maine coon", null);
 		/*jimmy.sePresenter();*/
 		/*List<Etudiant> sio = new ArrayList<Etudiant>();
 		sio.add(jimmy);

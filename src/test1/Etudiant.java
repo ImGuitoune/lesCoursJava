@@ -32,11 +32,18 @@ public class Etudiant {
 
 
 public void sePresenter() {
-	System.out.println(" Bonjour, je m'appelle " + " " + nom + " " + prenom + " j'ai " + age + " ans, et je suis en  " + classe + " ." );
+	 int nbrChat = 0;
+	 for(int i = 0; i < chats.size(); i++){    
+	   nbrChat = nbrChat +1;
+	 } 
 	
+	
+	
+	System.out.println(" Bonjour, je m'appelle " + " " + nom + " " + prenom + " j'ai " + age + " ans, et je suis en  " + classe + " , et j'ai " + nbrChat + " Chats, les voici :" );
+	/*
 	 for(int i = 0; i < chiens.size(); i++){    
 	        chiens.get(i).sePresenter();
-	        } 
+	        } */
 	 
 	 
 	 /*for(int j = 0; j < chats.size(); j++){    
