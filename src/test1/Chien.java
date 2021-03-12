@@ -22,14 +22,14 @@ public class Chien extends Animal {
 
 
 
-/*public void sePresenter() {
+public void sePresenter() {
 	System.out.println(" ouaf, je m'appelle " + " " + nom + " " + " je fait " + " " + taille + " cm, j'ai "
 			+ age + " ans, et je suis un "  + race );
 }	
 
 		public String toString() {
 			return nom + " " + race;
-		}*/
+		}
 }
 
 

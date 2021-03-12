@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		Chien revus = new Chien(10, " Chien", "rêvus", " Fox Terrier", 8);
 		Chien maxoue = new Chien(100, " gros Chien", "Maxence", "Berger Allemand", 18);
-		Chien ziikro = new Chien(100000, " vieux Chien", "Ziikro", "Gros chien", 20);
+		Chien phact = new Chien(100, " Julien", "gros chien", "rose", 20);
 		Etudiant jimmy = new Etudiant("DOUSSAIN", " Jimmy", 19, "BTS SIO1");
 		Etudiant guitoune = new Etudiant("BOSC", "Guillaume", 19, "BTS SIO1");
 		Etudiant mathilde = new Etudiant("ROPTIN", "Mathilde", 19, "BTS TC1");
@@ -34,11 +34,11 @@ public class Main {
 		List<Chien> chenil = new ArrayList<Chien>();
 		chenil.add(revus);
 		chenil.add(maxoue);
-		chenil.add(ziikro);
+		chenil.add(phact);
         guitoune.ajouterChien(maxoue);
-        guitoune.ajouterChien(ziikro);
+        guitoune.ajouterChien(phact);
         jimmy.ajouterChien(revus);
-        jimmy.ajouterChien(ziikro);
+        jimmy.ajouterChien(phact);
         jimmy.ajouterChien(maxoue);
         
         
