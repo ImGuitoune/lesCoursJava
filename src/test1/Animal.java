@@ -8,6 +8,10 @@ public class Animal {
 
 	
 
+	
+	
+	
+
 	/*constructor*/ public Animal(int age, String nom, String race) {
 		super();
 		this.age = age;
@@ -40,7 +44,7 @@ public class Animal {
 	}
 	
 	public void sePresenter() {
-		System.out.println("je suis un animal");
+		System.out.println("je suis un animal wesh");
 	}	
 
 			
